@@ -2,32 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: Anton;
+  src: url("/fonts/anton.woff");
+}
+
+.font-anton {
+  font-family: Anton;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 30s linear infinite;
+}
+
+.outlined-text {
+  color: #a6dff9;
+  -webkit-text-stroke: 1.5px #fff;
+}
+
+.vertical-box {
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  z-index: 4;
+}
+
+.tracks-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #666;
+  background-color: #0e1723;
+  position: relative;
+}
+
+.tracks-box:after,
+.tracks-box:before {
+  content: "";
+  position: absolute;
+  background-color: #0e1723b0;
+  pointer-events: none;
+}
+
+.tracks-box:before {
+  width: calc(100% + 2px * 2 - 50px);
+  height: calc(100% + 1px * 2);
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tracks-box:after {
+  height: calc(100% + 2px * 2 - 50px);
+  width: calc(100% + 1px * 2);
+  left: -1px;
+  top: 50%;
+  transform: translateY(-50%);
 }
