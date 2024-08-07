@@ -25,6 +25,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
@@ -59,7 +60,9 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #666;
-  background-color: #0e1723;
+  background-color: #0e17235a;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   position: relative;
 }
 
@@ -67,7 +70,8 @@ body {
 .tracks-box:before {
   content: "";
   position: absolute;
-  background-color: #0e1723b0;
+  z-index: -1;
+  background-color: #0e172300;
   pointer-events: none;
 }
 

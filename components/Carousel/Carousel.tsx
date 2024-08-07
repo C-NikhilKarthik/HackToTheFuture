@@ -47,10 +47,10 @@ const Carousel = () => {
     <div
       id="technologies"
       ref={carouselRef}
-      className="scroll-mt-6 relative py-16 flex flex-col items-center w-full h-full min-h-[100dvh] bg-[#070b0d] overflow-clip gap-2"
+      className="scroll-mt-6 relative py-12 sm:py-16 flex flex-col items-center w-full h-full min-h-[100dvh] bg-[#070b0d] overflow-clip gap-2"
     >
-      <div className="absolute uppercase left-16 font-anton top-0 text-[200px] text-[#1b1e24]">
-        Technologies
+      <div className="absolute uppercase left-8 sm:left-16 font-anton top-0 text-[6rem] md:text-[200px] text-[#1b1e24]">
+        Tracks
       </div>
       <Image
         src={stars}
@@ -58,8 +58,8 @@ const Carousel = () => {
         className="absolute w-full h-full"
         ref={starsRef}
       />
-      <h1 className="relative text-[80px] font-anton w-full px-28 uppercase font-bold mb-20 pt-16 p-4 z-[2]">
-        Technologies
+      <h1 className="relative text-[3rem] md:text-[80px] font-anton w-full px-8 sm:px-16 md:px-28 uppercase font-bold mb-20 pt-0 sm:pt-16 z-[2]">
+        Tracks
       </h1>
       <TopButtons events={events} eventId={eventId} onClick={onClick} />
       <CarouselBody

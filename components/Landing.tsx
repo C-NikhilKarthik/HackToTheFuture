@@ -4,7 +4,7 @@ import stars from "@/public/Stars Animate.svg";
 
 export default function Landing() {
   return (
-    <section className="h-[100dvh] relative overflow-y-hidden bg-[url('/Main.png')] bg-right bg-cover font-roboto w-full pt-[180px] flex">
+    <section className="h-[100dvh] relative overflow-hidden bg-[url('/Main.png')] bg-right bg-cover font-roboto w-full pt-[180px] flex">
       <Image
         src={stars}
         alt={""}
@@ -12,16 +12,16 @@ export default function Landing() {
       />
       <div className="absolute h-full w-full top-0 bg-black/20 z-[1]"></div>
       <div className="pl-[40px] z-[3] md:pl-20">
-        <div className="text-[11rem] font-anton uppercase leading-[1] tracking-[0.01em]">
-          hack to
+        <div className="text-[5rem] md:text-[11rem] font-anton uppercase leading-[1] tracking-[0.01em]">
+          hack 2
         </div>
-        <div className="text-[8rem] font-anton uppercase leading-[1] tracking-[0.01em]">
-          the{" "}
+        <div className="text-[5rem] md:text-[11rem] font-anton uppercase leading-[1] tracking-[0.01em]">
+          {/* the{" "} */}
           <span className="outlined-text transition-all duration-500">
             future
           </span>
         </div>
-        <div className="mt-20 flex gap-8">
+        <div className="mt-20 flex flex-col sm:flex-row gap-8">
           <button className="bg-[#3770ff] px-8 uppercase h-12 gap-2 flex items-center justify-center">
             <Image
               src={"/Devfolio.png"}

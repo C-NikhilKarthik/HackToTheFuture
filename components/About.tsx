@@ -2,12 +2,15 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="h-[100dvh] relative w-full bg-[#070b0d] flex items-center justify-center px-28">
-      <div className="absolute left-16 font-anton top-10 text-[200px] text-[#1b1e24]">
+    <section
+      id="about"
+      className="min-h-[100dvh] relative w-full bg-[#070b0d] flex items-center justify-center py-28 px-8 sm:px-16 md:px-28"
+    >
+      <div className="absolute left-8 sm:left-16 font-anton top-10 text-[6rem] md:text-[200px] text-[#1b1e24]">
         ABOUT
       </div>
       <div className="text-white z-[2]">
-        <div className="text-[90px] leading-[1] uppercase font-anton">
+        <div className="text-[3rem] md:text-[90px] leading-[1] uppercase font-anton">
           About us
         </div>
         <div className="text-[40px] leading-[1] uppercase font-anton">
