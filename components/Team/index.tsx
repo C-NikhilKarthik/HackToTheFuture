@@ -5,7 +5,7 @@ import TeamMate from "./TeamMate";
 const Team: React.FC = () => {
   return (
     <div className="mt-20 p-8 text-center bg-[#070b0d]">
-      <div className="flex flex-col items-center justify-center mb-16">
+      {/* <div className="flex flex-col items-center justify-center mb-16">
         <div className="relative">
           <Image
             src={"/404_Crewmates.png"}
@@ -21,7 +21,7 @@ const Team: React.FC = () => {
             Crewmates Found
           </p>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex items-center space-x-4 mb-14">
         <div className="relative flex grow">

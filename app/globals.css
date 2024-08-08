@@ -22,6 +22,23 @@
   font-family: Anton;
 }
 
+.stroke-animation {
+  animation: stroke-animation 1s ease-in-out forwards;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+@keyframes stroke-animation {
+  0% {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+  }
+  100% {
+    -webkit-text-stroke: 0px;
+    color: white;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));

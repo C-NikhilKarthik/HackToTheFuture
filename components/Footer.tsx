@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import CollegeLogo from "@/public/college-logo.png";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -21,9 +22,16 @@ export default function Footer() {
           </div>
           <div className="">
             <div className="text-xl text-slate-400 mb-3">Contact</div>
-            <div className="text-sm mb-1">hacktofuture@iiitdwd.ac.in</div>
+            <div className="text-sm mb-1">hackathon@iiitdwd.ac.in</div>
             <div className="text-sm">+91 9391716215</div>
           </div>
+          <a
+            className="text-xl text-slate-400"
+            target="_blank"
+            href={"/Hack2Future-Sponsorship-Brochure.pdf"}
+          >
+            Sponsorship Brochure
+          </a>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -33,6 +41,17 @@ export default function Footer() {
               Indian Institute of Information Technology (IIIT) Dharwad,
               Ittigatti Rd, near Sattur Colony, Karnataka 580009 92VG+24 Joga
               Yellapur, Karnataka
+            </div>
+            <div className="w-full mt-4 flex gap-4 flex-wrap items-center">
+              <a href="" target="_blank">
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://www.instagram.com/hack2future_1.0/"
+                target="_blank"
+              >
+                <FaInstagram />
+              </a>
             </div>
           </div>
         </div>

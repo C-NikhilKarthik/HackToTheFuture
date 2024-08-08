@@ -77,11 +77,8 @@ const Sponsors: React.FC = () => (
           </svg>
           <hr className="flex-grow border-t-2 border-teamBorderLine" />
         </div>
-        <h1
-          className="text-xl md:text-2xl text-center"
-          style={{ textShadow: "0 0 4px #fff" }}
-        >
-          Tier 1
+        <h1 className="text-xl md:text-2xl font-anton uppercase text-center">
+          Diamond
         </h1>
         <div className="relative flex grow">
           <svg
@@ -112,12 +109,10 @@ const Sponsors: React.FC = () => (
           </svg>
           <hr className="flex-grow border-t-2 border-teamBorderLine" />
         </div>
-        <h1
-          className="text-xl md:text-2xl text-center"
-          style={{ textShadow: "0 0 4px #fff" }}
-        >
-          Tier 2
+        <h1 className="text-xl md:text-2xl font-anton uppercase text-center">
+          Platinum
         </h1>
+
         <div className="relative flex grow">
           <svg
             width={"10px"}
