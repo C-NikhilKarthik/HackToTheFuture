@@ -22,7 +22,7 @@ export default function Landing() {
           </span>
         </div>
         <div className="mt-20 flex flex-col sm:flex-row gap-8">
-          <button className="bg-[#3770ff] px-8 uppercase h-12 gap-2 flex items-center justify-center">
+          <button className="bg-[#3770ff] px-8 uppercase rounded h-12 gap-2 flex items-center justify-center">
             <Image
               src={"/Devfolio.png"}
               height={20}
@@ -32,7 +32,7 @@ export default function Landing() {
             />
             Register
           </button>
-          <button className="bg-black px-8 uppercase border border-slate-600 h-12 flex items-center justify-center">
+          <button className="bg-black px-8 uppercase border rounded border-slate-600 h-12 flex items-center justify-center">
             Brochure
           </button>
         </div>

@@ -4,19 +4,22 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-[100dvh] relative w-full bg-[#070b0d] flex items-center justify-center py-28 px-8 sm:px-16 md:px-28"
+      className="min-h-[100dvh] relative w-full bg-[#070b0d] flex items-center justify-center py-28"
     >
-      <div className="absolute left-8 sm:left-16 font-anton top-10 text-[6rem] md:text-[200px] text-[#1b1e24]">
+      {/* <div className="absolute left-8 sm:left-16 font-anton top-10 text-[6rem] md:text-[200px] text-[#1b1e24]">
         ABOUT
-      </div>
+      </div> */}
       <div className="text-white z-[2]">
-        <div className="text-[3rem] md:text-[90px] leading-[1] uppercase font-anton">
+        <h1 className="text-[3rem] left-8 sm:left-20 w-full relative md:text-[90px] leading-[1] z-[2] uppercase font-anton">
           About us
-        </div>
-        <div className="text-[40px] leading-[1] uppercase font-anton">
+          <span className="absolute -left-2 md:-left-8 font-anton -bottom-3 z-[-1] text-[6rem] md:text-[200px] text-[#1b1e24]">
+            About
+          </span>
+        </h1>
+        <div className="px-8 sm:px-16 md:px-28 text-[40px] leading-[1] uppercase font-anton">
           Who we are
         </div>
-        <div className="font-roboto mt-20 flex flex-col gap-4">
+        <div className="font-roboto px-8 sm:px-16 md:px-28 mt-20 flex flex-col gap-4">
           <span>
             This event aims to cultivate innovation and collaboration among
             participants by providing a platform for tackling real-world

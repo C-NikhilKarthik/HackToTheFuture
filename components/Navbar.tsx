@@ -55,7 +55,7 @@ export default function Navbar() {
           Sponsors
         </Link>
         <Link
-          href={"/#teams"}
+          href={"/team"}
           className={`w-28 hidden justify-center md:flex ${
             option === 4 && "font-semibold"
           }`}
@@ -89,7 +89,7 @@ export default function Navbar() {
           <Link className="" onClick={() => setOpen(!open)} href="/#sponsors">
             Sponsors
           </Link>
-          <Link className="" onClick={() => setOpen(!open)} href="/#team">
+          <Link className="" onClick={() => setOpen(!open)} href="/team">
             Team
           </Link>
         </div>
