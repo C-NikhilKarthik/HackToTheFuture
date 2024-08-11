@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import CarouselIndex from "@/components/Carousel";
+import FAQs from "@/components/FAQs";
 import Landing from "@/components/Landing";
 import Prizes from "@/components/Prizes/Prizes";
 import Sponsors from "@/components/Sponsors";
@@ -15,6 +16,7 @@ export default function Home() {
       <Prizes />
       <Timeline />
       <Sponsors />
+      <FAQs />
     </main>
   );
 }
