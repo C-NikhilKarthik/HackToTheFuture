@@ -17,10 +17,6 @@ export default function Footer() {
       <div className="flex mt-4 flex-col sm:flex-row gap-8 sm:gap-0 w-full justify-between">
         <div className="flex flex-col gap-4">
           <div className="">
-            <div className="text-xl text-slate-400 mb-3">Explore</div>
-            <div className="text-sm">Rule Book</div>
-          </div>
-          <div className="">
             <div className="text-xl text-slate-400 mb-3">Contact</div>
             <div className="text-sm mb-1">hackathon@iiitdwd.ac.in</div>
             <div className="text-sm">+91 9391716215</div>
@@ -32,9 +28,6 @@ export default function Footer() {
           >
             Sponsorship Brochure
           </a>
-        </div>
-
-        <div className="flex flex-col gap-4">
           <div className="max-w-xl">
             <div className="text-lg text-slate-400 mb-3">Address</div>
             <div className="text-sm">
@@ -53,6 +46,20 @@ export default function Footer() {
                 <FaInstagram />
               </a>
             </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-2 max-[884px]:w-full">
+            <p className="text-lg text-slate-400 mb-2">Location</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5671.792036388141!2d75.02120041187774!3d15.39292320151374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d3a4bc7f5c91%3A0xf0fc456099430c57!2sIndian%20Institute%20of%20Information%20Technology%20(IIIT)%2C%20Dharwad!5e0!3m2!1sen!2sin!4v1716397238919!5m2!1sen!2sin"
+              width="250"
+              height="250"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-xl max-[884px]:w-full w-[40vw] max-w-3xl bg-slate-600"
+            />
           </div>
         </div>
       </div>
