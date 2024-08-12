@@ -130,6 +130,108 @@ const Sponsors: React.FC = () => (
           <SponsorCard key={index} {...sponsor} />
         ))}
       </div>
+
+      <div className="flex w-full gap-4 items-center mb-12 mt-12 max-w-4xl">
+        <div className="relative flex grow">
+          <svg
+            width={"10px"}
+            height={"10px"}
+            className="fill-teamBorderLine absolute top-[-4px] left-0 rotate-45"
+            viewBox="0 0 10 10"
+          >
+            <rect width={"10px"} height={"10px"} />
+          </svg>
+          <hr className="flex-grow border-t-2 border-teamBorderLine" />
+        </div>
+        <h1 className="text-xl md:text-2xl font-anton uppercase text-center">
+          Gold
+        </h1>
+
+        <div className="relative flex grow">
+          <svg
+            width={"10px"}
+            height={"10px"}
+            className="fill-teamBorderLine absolute top-[-4px] right-0 rotate-45"
+            viewBox="0 0 10 10"
+          >
+            <rect width={"10px"} height={"10px"} />
+          </svg>
+          <hr className="flex-grow border-t-2 border-teamBorderLine" />
+        </div>
+      </div>
+      <div className="flex gap-x-8 gap-y-8 justify-center flex-wrap w-full max-w-2xl items-center">
+        {sponsorsTier2.map((sponsor, index) => (
+          <SponsorCard key={index} {...sponsor} />
+        ))}
+      </div>
+
+      <div className="flex w-full gap-4 items-center mb-12 mt-12 max-w-4xl">
+        <div className="relative flex grow">
+          <svg
+            width={"10px"}
+            height={"10px"}
+            className="fill-teamBorderLine absolute top-[-4px] left-0 rotate-45"
+            viewBox="0 0 10 10"
+          >
+            <rect width={"10px"} height={"10px"} />
+          </svg>
+          <hr className="flex-grow border-t-2 border-teamBorderLine" />
+        </div>
+        <h1 className="text-xl md:text-2xl font-anton uppercase text-center">
+          Silver
+        </h1>
+
+        <div className="relative flex grow">
+          <svg
+            width={"10px"}
+            height={"10px"}
+            className="fill-teamBorderLine absolute top-[-4px] right-0 rotate-45"
+            viewBox="0 0 10 10"
+          >
+            <rect width={"10px"} height={"10px"} />
+          </svg>
+          <hr className="flex-grow border-t-2 border-teamBorderLine" />
+        </div>
+      </div>
+      <div className="flex gap-x-8 gap-y-8 justify-center flex-wrap w-full max-w-2xl items-center">
+        {sponsorsTier2.map((sponsor, index) => (
+          <SponsorCard key={index} {...sponsor} />
+        ))}
+      </div>
+
+      <div className="flex w-full gap-4 items-center mb-12 mt-12 max-w-4xl">
+        <div className="relative flex grow">
+          <svg
+            width={"10px"}
+            height={"10px"}
+            className="fill-teamBorderLine absolute top-[-4px] left-0 rotate-45"
+            viewBox="0 0 10 10"
+          >
+            <rect width={"10px"} height={"10px"} />
+          </svg>
+          <hr className="flex-grow border-t-2 border-teamBorderLine" />
+        </div>
+        <h1 className="text-xl md:text-2xl font-anton uppercase text-center">
+          Bronze
+        </h1>
+
+        <div className="relative flex grow">
+          <svg
+            width={"10px"}
+            height={"10px"}
+            className="fill-teamBorderLine absolute top-[-4px] right-0 rotate-45"
+            viewBox="0 0 10 10"
+          >
+            <rect width={"10px"} height={"10px"} />
+          </svg>
+          <hr className="flex-grow border-t-2 border-teamBorderLine" />
+        </div>
+      </div>
+      <div className="flex gap-x-8 gap-y-8 justify-center flex-wrap w-full max-w-2xl items-center">
+        {sponsorsTier2.map((sponsor, index) => (
+          <SponsorCard key={index} {...sponsor} />
+        ))}
+      </div>
     </div>
   </div>
 );

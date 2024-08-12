@@ -6,7 +6,7 @@ export default function Landing() {
   return (
     <section
       id="main"
-      className="h-[100dvh] justify-center md:justify-start relative overflow-hidden bg-[url('/Main.png')] bg-right bg-cover font-roboto w-full pt-[180px] flex"
+      className="h-[100dvh] justify-center md:justify-start relative overflow-hidden bg-[url('/Main.webp')] bg-right bg-cover font-roboto w-full pt-[180px] flex"
     >
       <Image
         src={stars}
