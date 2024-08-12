@@ -18,7 +18,11 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <div className="">
             <div className="text-xl text-slate-400 mb-3">Contact</div>
-            <div className="text-sm mb-1">hackathon@iiitdwd.ac.in</div>
+            <div className="text-sm mb-1">
+              <a href="mailto:hackathon@iiitdwd.ac.in">
+                hackathon@iiitdwd.ac.in
+              </a>
+            </div>
             <div className="text-sm">+91 9391716215</div>
           </div>
           <a
@@ -36,7 +40,10 @@ export default function Footer() {
               Yellapur, Karnataka
             </div>
             <div className="w-full mt-4 flex gap-4 flex-wrap items-center">
-              <a href="" target="_blank">
+              <a
+                href="https://www.linkedin.com/company/hack-2-future/"
+                target="_blank"
+              >
                 <FaLinkedin />
               </a>
               <a

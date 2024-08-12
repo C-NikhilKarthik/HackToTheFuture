@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <div className="w-full">
-      <nav className="fixed right-4 md:left-0 md:right-0 md:mx-auto w-fit p-4 md:px-2 top-6 z-40 bg-black/80 shadow-lg backdrop-blur text-center items-center rounded-full flex">
+      <nav className="fixed right-4 md:left-0 md:right-0 md:mx-auto w-fit p-4 md:px-2 top-6 z-40 bg-black/60 shadow-lg backdrop-blur text-center items-center rounded-full flex">
         <button onClick={() => setOpen(!open)} className="flex md:hidden">
           <IoMenu />
         </button>
@@ -34,16 +34,16 @@ export default function Navbar() {
           Home
         </Link>
         <Link
-          href={"/#about"}
+          href={"/#prizes"}
           className={`w-28 hidden justify-center md:flex ${
             option === 1 && "font-semibold"
           }`}
           onClick={() => {
             setOption(1),
-              lenis?.scrollTo("#about", { lerp: 0.07, duration: 0.6 });
+              lenis?.scrollTo("#prizes", { lerp: 0.07, duration: 0.6 });
           }}
         >
-          About
+          Prizes
         </Link>
         <Link
           href={"/#timeline"}
