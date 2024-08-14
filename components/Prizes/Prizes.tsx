@@ -27,8 +27,8 @@ const Prizes = () => {
           />
           <div className="flex bg-clip-text text-transparent bg-gradient-to-r from-[#824FB0] to-[#F5C144] flex-col text-xl sm:text-3xl xs:text-2xl md:text-3xl lg:text-4xl font-bold text-center">
             <span>
-              Prize Pool Worth <br />
-              &#x20b9;1,00,000
+              Prize Pool <br />
+              Revealing Soon
             </span>
           </div>
         </div>

@@ -53,9 +53,9 @@ const Team: React.FC = () => {
       <div className="flex justify-evenly items-center space-x-4 mb-24">
         <TeamMate
           photo="/Team/dummyPhoto.png"
-          name="Arsalan Shaikh"
-          githubLink="https://github.com/your-github"
-          linkedinLink="https://linkedin.com/in/your-linkedin"
+          name="Aayush Kumar"
+          githubLink="https://github.com/Aayush-Kr-13"
+          linkedinLink="https://www.linkedin.com/in/aayush-kumar-904967218/"
         />
       </div>
       <div className="flex items-center space-x-4 mb-12">
