@@ -29,7 +29,7 @@ export default function DesktopView() {
         </span>
       </h1>
       <div className=" px-8">
-        <Animate>
+        {/* <Animate>
           <div className="max-w-[calc(100vw-160px)] h-fit overflow-hidden place-self-center z-10">
             <div
               id="timeline-cards-upper"
@@ -167,7 +167,8 @@ export default function DesktopView() {
               })}
             </div>
           </div>
-        </Animate>
+        </Animate> */}
+      <span className="text-3xl uppercase">Revealing Soon...</span>
       </div>
     </div>
   );

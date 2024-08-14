@@ -103,7 +103,7 @@ export const SponsorCard: React.FC<SponsorCardProps> = ({
           <Image
             height={80}
             width={80}
-            src={logo}
+            src="/Revealing.png"
             alt={`${name} logo`}
             className="group-hover:-skew-x-2 group-hover:-skew-y-2 group-hover:rotate-[10deg] group-hover:translate-x-[-8%] group-hover:translate-y-[-10%] opacity-100 z-30 w-full h-full object-cover absolute top-0 left-0 rounded-full"
           />

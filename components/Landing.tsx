@@ -23,8 +23,8 @@ export default function Landing() {
             future
           </span>
         </div>
-        <div className="mt-20 flex flex-col sm:flex-row gap-8">
-          <button className="bg-[#3770ff] px-8 uppercase rounded h-12 gap-2 flex items-center justify-center">
+        <div className="mt-20 flex flex-col gap-8">
+          {/* <button className="bg-[#3770ff] px-8 uppercase rounded h-12 gap-2 flex items-center justify-center">
             <Image
               src={"/Devfolio.png"}
               height={20}
@@ -33,14 +33,15 @@ export default function Landing() {
               sizes="100%"
             />
             Register
-          </button>
+          </button> */}
           <a
             href={"/Hack2Future-Brochure.pdf"}
             target="_blank"
-            className="bg-black px-8 uppercase border rounded border-slate-600 h-12 flex items-center justify-center"
+            className="bg-black px-8 uppercase border rounded border-slate-600 h-12 flex items-center justify-center w-fit"
           >
             Brochure
           </a>
+          <span className="font-anton tracking-wide uppercase text-xl">Registeration Starting Soon...</span>
         </div>
       </div>
     </section>
