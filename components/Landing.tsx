@@ -41,7 +41,7 @@ export default function Landing() {
           >
             Brochure
           </a>
-          <span className="font-anton tracking-wide uppercase text-xl">Registeration Starting Soon...</span>
+          <span className="font-anton tracking-wide uppercase text-xl">Registration Starting Soon...</span>
         </div>
       </div>
     </section>
