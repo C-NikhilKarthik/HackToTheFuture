@@ -12,7 +12,7 @@ export default function MobileView() {
       <h1 className="relative text-[2.4rem] font-anton w-full px-8 uppercase font-bold mb-20 pt-10 p-4 z-[2]">
         Timeline
       </h1>
-      <Animate>
+      {/* <Animate>
         <div
           id="mobile-timeline-rocket"
           className="z-20 pointer-events-none max-[600px]:hidden -mr-12 -ml-4"
@@ -94,7 +94,8 @@ export default function MobileView() {
             ))}
           </div>
         </div>
-      </Animate>
+      </Animate> */}
+      <span className="text-3xl uppercase">Revealing Soon...</span>
     </div>
   );
 }
